@@ -1,0 +1,37 @@
+html{
+    background-color: rgb(17, 17, 17);
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+    position: relative;
+    color: #6Cf;
+    font-style: inherit;
+    margin-left: 5%;
+  }
+  h2 {
+    font-size: 18px;
+    right: 10px;
+    color:rgb(58, 104, 255);
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium';
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: #6Cf;
+  }
+  form {
+    right: 0px;
+    margin-left: 5%;
+    margin-top: 20px;    
+  }

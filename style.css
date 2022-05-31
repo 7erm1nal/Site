@@ -1,0 +1,50 @@
+.tabs {
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /*По горизонтали*/
+  .tab, .tab-title {
+    display: inline-block;
+  }
+  .tab>input[type = "radio"] {
+    display: none;
+  }
+  .tab-title{
+    background-color: rgb(60, 60, 60);/*Цвет фона*/
+    padding: 5px 90px;/*Поля вокруг*/
+    border: 3px solid #000000;/*Рамки*/
+    border-bottom: #111010;
+    color: rgb(45, 166, 226);;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium';
+    
+  }
+  .tab-title:hover{
+    color:rgb(39, 213, 202);
+    text-align: underline;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium';
+  }
+  .tab-content{
+    position: absolute;
+    border: #111010;
+    padding: 10px;
+    left: 0;
+    width:calc(100%-20px);
+    display: none;
+    color: rgb(0, 158, 161);
+    font-size: 18px;
+  }
+  .tab :checked + .tab-title{
+    position: relative;
+    background:#485153; 
+    top: 3px;
+    z-index: 1; 
+  }
+  .tab :checked ~ .tab-content{
+  display:block;
+  }
+  html{
+    background-color: rgb(61, 61, 61);
+  }
