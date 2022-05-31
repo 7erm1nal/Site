@@ -15,4 +15,4 @@
 Студент 2-го курса АПОУ УР ИПЭК
 Тулеников Павел
 
-P.S. Запускать следует frames.html
+P.S. Запускать следует frames.html, папка siteusers -- база данных OpenServer-а, находящаяся по пути OpenServer/userdata/MeSQL-8.0-Win10
