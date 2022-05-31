@@ -15,4 +15,4 @@
 Студент 2-го курса АПОУ УР ИПЭК
 Тулеников Павел
 
-P.S. Запускать следует frames.html, папка siteusers -- база данных OpenServer-а, находящаяся по пути OpenServer/userdata/MySQL-8.0-Win10
+P.S. Папка siteusers -- база данных OpenServer-а, находящаяся по пути OpenServer/userdata/MySQL-8.0-Win10
